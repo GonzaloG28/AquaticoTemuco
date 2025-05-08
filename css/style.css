@@ -105,12 +105,16 @@ main{
         .descripcion{
             text-align: left;
             margin-top: 100px;
+            width: 80%;
             h4{
                 width: 50%;
                 font-weight: 800;
                 border-left: solid 5px rgba(0, 0, 240, 0.7);
                 padding-left: 15px;
                 margin: 10px 0;
+            }
+            p{
+                width: 70%;
             }
         }
         .texto_unirse{
@@ -182,6 +186,13 @@ main{
 
 
     .galeria_inicio{
+        display: flex;
+        margin: 0 auto;
+        width: 70%;
+        .texto_galeria{
+            margin: auto;
+            width: 50%;
+        }
         .modal {
             position: fixed;
             z-index: 9999;
