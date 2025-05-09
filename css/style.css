@@ -191,6 +191,7 @@ main{
         display: flex;
         margin: 150px auto;
         width: 70%;
+        padding: 0 10px;
         .texto_galeria{
             margin: auto;
             width: 50%;

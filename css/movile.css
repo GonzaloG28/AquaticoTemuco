@@ -109,17 +109,18 @@
                     display: none;
                  }
                  .galeria{
-                    width: 80%;
+                    width: 70%;
+                    grid-template-columns: 1fr;
                  }
                  .img-galeria{
-                    height: 100px;
+                    height: 180px;
                  }
             }
 
 
 
             .contenedor_redes{
-                width: 100%;
+                width: 80%;
                 margin-top: 20px;
                 .texto_redes{
                     h2{
