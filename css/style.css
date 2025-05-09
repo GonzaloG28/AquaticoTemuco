@@ -148,6 +148,7 @@ main{
     .profesores_inicio{
         background-color: rgba(242, 119, 37, 0.856);
         border-top: 4px solid rgb(205, 97, 25);
+        text-align: center;
         .titulo_profes{
             width: 70%;
             margin: 0 auto;
@@ -187,7 +188,7 @@ main{
 
     .galeria_inicio{
         display: flex;
-        margin: 0 auto;
+        margin: 150px auto;
         width: 70%;
         .texto_galeria{
             margin: auto;
@@ -204,16 +205,17 @@ main{
             background-color: rgba(0,0,0,0.9);
           }
         .galeria {
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columnas */
             gap: 10px;
-            justify-content: center;
-            margin: 40px auto;
-            max-width: 800px;
+            width: 40%;
+            margin: 0 auto;
           }
           
           .img-galeria {
-            width: 45%;
+            width: 300px;           /* o el ancho que desees */
+            height: 200px;
+            object-fit: cover;          /* o el alto que quieras */
             border-radius: 10px;
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -246,15 +248,36 @@ main{
     }
 }
 
-footer{
-    background-color: black;
-    color: white;
+footer {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: #fff;
+    padding: 40px 20px;
     text-align: center;
-    p{
-        margin: 0;
-        padding: 30px;
-    }
-}
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    color: #f6873d;
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 40px;
+    font-size: 0.9rem;
+  }
 
 
 @media (max-width: 768px) {
