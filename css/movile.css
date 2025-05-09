@@ -130,9 +130,6 @@
                 .link_redes{
                     display: inline-block;
                     font-size: 4rem;
-                    i{
-                        color: rgb(205, 97, 25);
-                    }
                 }
             }
         }

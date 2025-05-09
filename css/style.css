@@ -13,7 +13,7 @@
 .header{
     .hero{
         position: relative;
-        background-image: url('../img/imgNado/WhatsApp\ Image\ 2025-05-06\ at\ 09.55.38.jpeg');
+        background-image: url('../img/imgNado/IMGN2.jpeg');
         background-size: cover;
         background-position: center;
         height: 800px;
@@ -116,6 +116,11 @@ main{
             p{
                 width: 70%;
             }
+            .parrafo{
+                font-size: larger;
+                font-weight: bold;
+                color: rgba(0, 0, 240, 0.7);
+            }
         }
         .texto_unirse{
            
@@ -171,6 +176,7 @@ main{
                 p{
                     border-bottom: 4px solid rgba(0, 0, 240, 0.7);
                     width: 50%;
+                    margin: 0 auto;
                 }
             }
             .logo-fondo {
@@ -195,6 +201,16 @@ main{
         .texto_galeria{
             margin: auto;
             width: 50%;
+            .contenedor_titulo_galeria{
+                display: flex;
+                justify-content: space-evenly;
+                h2{
+                    margin: auto 0;
+                }
+            }
+            .logo_galeria{
+                text-align: center;
+            }
         }
         .modal {
             position: fixed;
@@ -226,6 +242,12 @@ main{
           .img-galeria:hover {
             transform: scale(1.05);
           }
+
+          .logo_galeria{
+            img{
+                width: 30%;
+            }
+          }
     }
 
 
@@ -247,6 +269,9 @@ main{
             margin: 0 auto;
             display: flex;
             justify-content: space-around;
+             i{
+                        color: rgb(205, 97, 25);
+                }
         }
     }
 }
