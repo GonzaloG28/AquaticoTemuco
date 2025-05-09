@@ -1,0 +1,135 @@
+@media (max-width: 991px) {
+    .header{
+        #nav{
+            display: none;
+            }
+            .hero{
+                height: 600px;
+                .top_bar{
+                .logo_inicio{
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-around;
+                    .menu_phone{
+                        display: block;
+                        width: 30%;
+                        .btn_phone{
+                            margin-top: 40px;
+                            padding: 0 10px;
+                            background-color: rgb(205, 97, 25);
+                            border: rgb(198, 79, 0) solid 4px;
+                            i{
+                                color: white;
+                                font-size:2rem;
+                            }
+                        }
+
+                        .menu_canvas{
+                            ul{
+                                .inicio_canvas{
+                                    color: rgb(205, 97, 25);
+                                }
+                                a{
+                                    text-decoration: none;
+                                    color: black;
+                                    margin-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+            }
+        }
+
+
+
+        main{
+            .unirse_inicio{
+                display: block;
+                .descripcion{
+                    width: 100%;
+                    margin-top: 80px;
+                    text-align: center;
+                    h4{
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        width: 100%;
+                    }
+                }
+                .texto_unirse{
+                    a{
+                        width: 100%;
+                    }
+                }
+            }
+
+
+
+            .profesores_inicio{
+                .contenedor_profes{
+                    width: 60%;
+                    display: inline-block;
+                    .card{
+                        text-align: center;
+                        width: 100%;
+                        p{
+                            margin: 0 auto;
+                            width: 80%;
+                        }
+                    }
+                    .logo-fondo{
+                        position: relative;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -5%);
+                        width: 100%; /* Ajustá según tu necesidad */
+                        opacity: 0.8;
+                        z-index: 0;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+
+
+            .galeria_inicio{
+                display: inline-block;
+                width: 100%;
+                margin: 80px auto;
+                 .texto_galeria{
+                    width: 80%;
+                    text-align: center;
+                    margin-bottom: 50px;
+                 }
+                 .flecha_galeria{
+                    display: none;
+                 }
+                 .galeria{
+                    width: 80%;
+                 }
+            }
+
+
+
+            .contenedor_redes{
+                width: 100%;
+                margin-top: 20px;
+                .texto_redes{
+                    h2{
+                        width: 100%;
+                    }
+                }
+                .link_redes{
+                    display: inline-block;
+                    font-size: 4rem;
+                    i{
+                        color: rgb(205, 97, 25);
+                    }
+                }
+            }
+        }
+    }
