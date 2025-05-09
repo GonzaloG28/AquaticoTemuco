@@ -223,6 +223,37 @@ main{
             transform: scale(1.05);
           }
     }
+
+
+    .contenedor_redes{
+        width: 70%;
+        margin: 150px auto;
+        text-align: center;
+        .texto_redes{
+            h2{
+                color:rgba(0, 0, 240, 0.7);
+                width: 40%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+            }
+        }
+        .link_redes{
+            width: 40%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    p{
+        margin: 0;
+        padding: 30px;
+    }
 }
 
 
