@@ -10,33 +10,6 @@
                     padding: 0;
                     display: flex;
                     justify-content: space-around;
-                    .menu_phone{
-                        display: block;
-                        width: 30%;
-                        .btn_phone{
-                            margin-top: 40px;
-                            padding: 0 10px;
-                            background-color: rgb(205, 97, 25);
-                            border: rgb(198, 79, 0) solid 4px;
-                            i{
-                                color: white;
-                                font-size:2rem;
-                            }
-                        }
-
-                        .menu_canvas{
-                            ul{
-                                .inicio_canvas{
-                                    color: rgb(205, 97, 25);
-                                }
-                                a{
-                                    text-decoration: none;
-                                    color: black;
-                                    margin-bottom: 20px;
-                                }
-                            }
-                        }
-                    }
                 }
                 
             }
