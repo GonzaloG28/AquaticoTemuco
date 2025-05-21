@@ -31,3 +31,32 @@
     transform: scale(0.85);
     cursor: pointer;
   }
+
+
+  @keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.texto-bounce {
+  animation: bounce 1s infinite;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.texto-fade {
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }

@@ -22,3 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+
+
+  document.getElementById('close-btn').addEventListener('click', function () {
+      document.getElementById('modal-overlay').style.display = 'none';
+    });
